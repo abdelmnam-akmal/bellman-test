@@ -1,0 +1,102 @@
+.special {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .special-header {
+        @extend %between-flex;
+        margin-bottom: 20px;
+        h2 {
+            color: $defaultColor;
+        }
+        a {
+            border: none;
+            background-color: transparent;
+            color: $defaultColor;
+            @extend %f-bold;
+            i {
+                margin-left: 5px;
+            }
+        }
+    }
+    .special-content {
+        .owl-nav {
+            margin-top: -17px;
+            @extend %between-flex;
+            @extend %p-absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            button {
+                font-size: 40px;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                border: 1px solid $defaultColor;
+                background-color: $defaultColor;
+                margin: 0;
+                @extend %center-flex;
+                transition: $trans;
+                span {
+                    color: $flatFFF;
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    @extend %text-center;
+                    margin-top: -34px;
+                }
+                &.owl-prev {
+                    @extend %p-relative;
+                    left: -20px;
+                }
+                &.owl-next {
+                    @extend %p-relative;
+                    right: -20px;
+                }
+                &:hover {
+                    background-color: $flatFFF;
+                    span {
+                        color: $defaultColor;
+                    }
+                }
+            }
+        }
+        .item {
+            div {
+                margin-top: 10px;
+                a {
+                    display: block;
+                    margin-bottom: 10px;
+                    color: $flatblack;
+                    font-size: 18px;
+                    @extend %f-bold;
+                    &.special-link {
+                        margin-bottom: 0;
+                    }
+                }
+                p {
+                    color: $flatblack1;
+                    opacity: .5;
+                    font-size: 15px;
+                    margin-bottom: 10px;
+                    &.special-p {
+                        color: $defaultColor;
+                        opacity: 1;
+                    }
+                }
+                .price {
+                    display: block;
+                    @extend %f-bold;
+                    margin-bottom: 10px;
+                    color: $defaultColor;
+                }
+                button {
+                    background-color: $mainColor2;
+                    border: 1px solid $mainColor2;
+                    color: $defaultColor;
+                    padding: 10px 25px;
+                    border-radius: 5px;
+                    @extend %f-bold;
+                }
+            }
+        }
+    }
+}

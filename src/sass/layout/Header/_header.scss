@@ -1,0 +1,85 @@
+.header {
+    background-color: $mainColor2;
+    @extend %center-flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .header-content {
+        @extend %text-center;
+        > div {
+            h1, p {
+                color: $defaultColor;
+            }
+            h1 {
+                @extend %f-bold;
+                font-size: 45px;
+                @media (max-width: $maxExtraMobile) {
+                    font-size: 30px;
+                }
+            }
+            .header-desc {
+                font-size: 22px;
+                @extend %f-bold;
+                margin-bottom: 30px;
+                @media (max-width: $maxExtraMobile) {
+                    font-size: 17px;
+                }
+            }
+            div {
+                width: 70%;
+                margin: auto;
+                @extend %p-relative;
+                @media (max-width: $maxMobile) {
+                    width: 100%;
+                }
+                i {
+                    @extend %p-absolute;
+                    top: 50%;
+                    left: 15px;
+                    height: 40px;
+                    margin-top: -20px;
+                    line-height: 40px;
+                    color: $flat75;
+                    font-size: 18px;
+                    @media (max-width: $maxMobile) {
+                        display: none;
+                    }
+                }
+                input {
+                    width: 100%;
+                    outline: none;
+                    padding: 20px 140px 20px 50px;
+                    border-radius: 5px;
+                    border: 1px solid $flatFFF;
+                    @media (max-width: $maxMobile) {
+                        padding: 20px;
+                    }
+                }
+                button {
+                    @extend %p-absolute;
+                    right: 5px;
+                    top: 7.5%;
+                    height: 85%;
+                    padding: 6px 40px;
+                    border-radius: 5px;
+                    background-color: $defaultColor;
+                    border: 1px solid $defaultColor;
+                    color: $flatFFF;
+                    @extend %f-bold;
+                    @media (max-width: $maxMobile) {
+                        position: static;
+                        margin-top: 10px;
+                        padding-top: 15px;
+                        padding-bottom: 15px;
+                    }
+                }
+            }
+            .header-p {
+                margin-top: 40px;
+                font-size: 20px;
+                @media (max-width: $maxExtraMobile) {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

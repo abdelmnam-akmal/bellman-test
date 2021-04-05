@@ -1,0 +1,45 @@
+.navbar {
+    background-color: $mainColor2;
+    .navbar-brand {
+        width: 15%;
+        @media (max-width: $maxExtraMobile) {
+            width: 30%;
+        }
+    }
+    .navbar-toggler {
+        background-color: $defaultColor;
+        span {
+            @extend %center-flex;
+            i {
+                color: $mainColor2;
+            }
+        }
+    }
+    .navbar-nav {
+        @media (max-width: $maxMedium) {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .nav-item {
+            transition: .4s;
+            &:hover {
+                @media (max-width: $maxMedium) {
+                    padding-left: 20px;
+                }
+            }
+            &:first-of-type {
+                margin-right: 15px;
+            }
+            &.active {
+                @media (max-width: $maxMedium) {
+                    padding-left: 20px;
+                }
+            }
+            .nav-link {
+                color: $defaultColor;
+                @extend %f-bold;
+                font-size: 16px;
+            }
+        }
+    }
+}

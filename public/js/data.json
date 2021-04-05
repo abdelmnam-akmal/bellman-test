@@ -1,0 +1,110 @@
+{
+    "hotspots": [
+        {
+            "id": 1,
+            "image": "images/hotspot-1.jpg",
+            "title": "Full-day Winelands Explore Private Tour of Stellenbosch",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, consequuntur nulla facere voluptatibus non",
+            "price": "3,213.50"
+        },
+        {
+            "id": 2,
+            "image": "images/hotspot-2.jpg",
+            "title": "2-Day Glamping South African Wildlife Safari Small Group",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, consequuntur nulla facere voluptatibus non",
+            "price": "15,156.79"
+        },
+        {
+            "id": 3,
+            "image": "images/hotspot-3.jpg",
+            "title": "3-Day Garden Route Highlights with 4x4 Safari Small Group",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, consequuntur nulla facere voluptatibus non",
+            "price": "8,412.50"
+        },
+        {
+            "id": 4,
+            "image": "images/hotspot-4.jpg",
+            "title": "Full-day Cape Point and Constantia Wine Tasting Private",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, consequuntur nulla facere voluptatibus non",
+            "price": "5,456.68"
+        },
+        {
+            "id": 5,
+            "image": "images/hotspot-5.jpg",
+            "title": "7-Day Garden Route, Winelands and Addo Small Group Combo",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, consequuntur nulla facere voluptatibus non",
+            "price": "3,213.10"
+        },
+        {
+            "id": 6,
+            "image": "images/hotspot-6.jpg",
+            "title": "Full-Day Stellenbosch 4x4 Wine Safari and Wine Tasting",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, consequuntur nulla facere voluptatibus non",
+            "price": "11,998.75"
+        },
+        {
+            "id": 7,
+            "image": "images/hotspot-7.jpg",
+            "title": "3-Day Victoria Falls Tour with Zambezi Sunset Cruise",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, consequuntur nulla facere voluptatibus non",
+            "price": "22,569.56"
+        },
+        {
+            "id": 8,
+            "image": "images/hotspot-8.jpg",
+            "title": "5-Day Luxury Private Kruger and Sabi Sands Singita Safari",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, consequuntur nulla facere voluptatibus non",
+            "price": "18,156.14"
+        }
+    ],
+    "events": [
+        {
+            "id": 1,
+            "image": "images/event-1.jpg",
+            "title": "Pink Crescent Moon",
+            "desc": "Lorem ipsum dolor"
+        },
+        {
+            "id": 2,
+            "image": "images/event-2.jpg",
+            "title": "Pink Plaid Event",
+            "desc": "Lorem ipsum dolor"
+        },
+        {
+            "id": 3,
+            "image": "images/event-3.jpg",
+            "title": "Cliffs of Moher",
+            "desc": "Lorem ipsum dolor"
+        },
+        {
+            "id": 4,
+            "image": "images/event-4.jpg",
+            "title": "Morning Frost",
+            "desc": "Lorem ipsum dolor"
+        },
+        {
+            "id": 5,
+            "image": "images/event-5.jpg",
+            "title": "Lorem Ipsum DO",
+            "desc": "Lorem ipsum dolor"
+        },
+        {
+            "id": 6,
+            "image": "images/event-6.jpg",
+            "title": "Abd Elmnam Akaml",
+            "desc": "Lorem ipsum dolor"
+        },
+        {
+            "id": 7,
+            "image": "images/event-7.jpg",
+            "title": "Somerset Garden",
+            "desc": "Lorem ipsum dolor"
+        },
+        {
+            "id": 8,
+            "image": "images/event-8.jpg",
+            "title": "Make Merry",
+            "desc": "Lorem ipsum dolor"
+        }
+    ]
+}

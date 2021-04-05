@@ -1,0 +1,14 @@
+%center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+%between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+%text-center {text-align: center;}
+%f-bold {font-weight: bold;}
+%p-relative {position: relative;}
+%p-absolute {position: absolute;}
