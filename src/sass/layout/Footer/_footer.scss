@@ -1,0 +1,61 @@
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: $mainColor2;
+    .footer-sec {
+        @extend %center-flex;
+    }
+    .subscribe {
+        > div {
+            h6 {
+                color: $defaultColor;
+                margin-bottom: 20px;
+            }
+            div {
+                @extend %text-center;
+                margin-bottom: 20px;
+                input {
+                    border: 1px solid $flatEEE;
+                    background-color: $flatEEE;
+                    outline: none;
+                    padding: 8px 15px;
+                    margin-right: 10px;
+                    border-radius: 5px;
+                    @media (max-width: $maxMobile) {
+                        margin-bottom: 5px;
+                    }
+                }
+                button {
+                    outline: none;
+                    padding: 8px 15px;
+                    border: 1px solid $defaultColor;
+                    background-color: $defaultColor;
+                    color: $flatFFF;
+                    @extend %f-bold;
+                    border-radius: 5px;
+                    box-shadow: 2px 7px 14px -3px $defaultColor;
+                }
+            }
+        }
+    }
+    .links {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        > div {
+            i {
+                background-color: $defaultColor;
+                margin-right: 10px;
+                width: 50px;
+                height: 50px;
+                @extend %text-center;
+                line-height: 50px;
+                border-radius: 50%;
+                color: $flatFFF;
+                cursor: pointer;
+            }
+        }
+    }
+    .copyright {
+        color: $defaultColor;
+    }
+}

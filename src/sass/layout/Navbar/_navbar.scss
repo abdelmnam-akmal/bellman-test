@@ -21,7 +21,7 @@
             padding-bottom: 20px;
         }
         .nav-item {
-            transition: .4s;
+            transition: $trans;
             &:hover {
                 @media (max-width: $maxMedium) {
                     padding-left: 20px;

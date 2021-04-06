@@ -1,8 +1,13 @@
 // global variables and extends
 @import "./helpers/variables";
 @import "./helpers/extends";
+
 // layout
 @import "./layout/Navbar/navbar";
 @import "./layout/Header/header";
+
 // sections of page hotspots and events
 @import "./sections/hotspot&events";
+
+// layout (footer)
+@import "./layout/Footer/footer";
